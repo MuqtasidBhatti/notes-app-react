@@ -1,16 +1,133 @@
-# React + Vite
+# 📝 Notes App (React + Context API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Notes Management App** built using **React**, **Context API**, and **Tailwind CSS**.  
+Users can create, edit, and delete notes with data persisted using **LocalStorage**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://notes-app-react-xi.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+💻 GitHub Repository:  
+https://github.com/MuqtasidBhatti/notes-app-react
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📸 Screenshot
+
+![Home Page UI](public/screenshots/Home.png)
+
+![About Page UI](public/screenshots/About.png)
+
+---
+
+## ✨ Features
+
+- Create notes
+- Edit existing notes
+- Delete notes
+- Real-time UI updates using Context API
+- LocalStorage persistence
+- Responsive UI
+- Simple and clean design
+
+---
+
+## 🛠 Tech Stack
+
+- React (Functional Components)
+- React Router
+- Context API (Global State)
+- Tailwind CSS
+- Vite
+- LocalStorage
+
+---
+
+## 📂 Project Structure
+
+```
+src
+├── components
+│   ├── Navbar.jsx
+│   ├── Home.jsx
+│   └── About.jsx
+│
+├── context
+│   └── notesContext.jsx
+│
+├── App.jsx
+├── main.jsx
+├── App.css
+└── index.css
+
+public
+└── screenshots
+    ├── Home.png
+    └── About.png
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository
+
+```bash
+git clone https://github.com/MuqtasidBhatti/notes-app-react.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📌 Key Learning
+
+This project demonstrates:
+
+- Implementing **CRUD operations in React**
+- Managing **global state using Context API**
+- Using **LocalStorage to persist data**
+- Structuring a scalable React application
+- Building responsive UI using **Tailwind CSS**
+
+---
+
+## 🔮 Possible Improvements
+
+- Add search functionality
+- Add note categories or tags
+- Add dark mode
+- Add backend database (MongoDB / Firebase)
+- User authentication
+
+---
+
+## 👨‍💻 Author
+
+**Muqtasid Bhatti**
+
+GitHub:  
+https://github.com/MuqtasidBhatti
+
+---
+
+⭐ If you like this project, feel free to **star the repository**.
